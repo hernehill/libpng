@@ -77,3 +77,8 @@ pngout.png
 
 # Libpng CI artifacts
 out/
+
+# HH
+_rez_build
+.vscode
+.idea
