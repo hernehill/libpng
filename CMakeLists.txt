@@ -658,7 +658,7 @@ set(png_fix_itxt_sources
 if(MSVC OR (WIN32 AND (CMAKE_C_COMPILER_ID MATCHES "Clang")))
   add_definitions(-D_CRT_NONSTDC_NO_DEPRECATE)
   add_definitions(-D_CRT_SECURE_NO_DEPRECATE)
-  add_definitions(-DPNG_NO_CONFIG_H)
+  add_definitions(-DPNG_NO_UNISTD_H) # Added to suppress MSVC's automatic inclusion of a non-existent "unistd.h" file, which would otherwise interfere with our own configuration header "pngconf.h".
 endif()
 
 if(PNG_DEBUG)
