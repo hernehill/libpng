@@ -15,7 +15,7 @@ with scope("config") as c:
 
 requires = []
 
-private_build_requires = []
+private_build_requires = ["visual_studio", "zlib"]
 
 variants = []
 

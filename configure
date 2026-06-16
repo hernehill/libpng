@@ -2552,7 +2552,7 @@ as_fn_append ac_header_c_list " stdint.h stdint_h HAVE_STDINT_H"
 as_fn_append ac_header_c_list " strings.h strings_h HAVE_STRINGS_H"
 as_fn_append ac_header_c_list " sys/stat.h sys_stat_h HAVE_SYS_STAT_H"
 as_fn_append ac_header_c_list " sys/types.h sys_types_h HAVE_SYS_TYPES_H"
-as_fn_append ac_header_c_list " unistd.h unistd_h HAVE_UNISTD_H"
+# as_fn_append ac_header_c_list " unistd.h unistd_h HAVE_UNISTD_H"
 
 # Auxiliary files required by this configure script.
 ac_aux_files="ltmain.sh config.guess config.sub compile missing install-sh"
